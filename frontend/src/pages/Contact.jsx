@@ -113,7 +113,7 @@ export default function Contact() {
       <div className="mt-12 text-center">
         <h3 className="text-lg font-semibold mb-3">Connect With Us</h3>
         <div className="flex justify-center space-x-6">
-          <a href="https://wa.me/8960628583" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">WhatsApp</a>
+          <a href="https://wa.me/918960628583" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">WhatsApp</a>
           <a href="https://www.instagram.com/chetna.academy?igsh=dnlsM3F4bjAycjAw" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:underline">Instagram</a>
           <a href="https://www.facebook.com/share/17aZ44sTiv/" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:underline">Facebook</a>
           <a href="https://www.youtube.com/@Chetna_xnava" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">YouTube</a>

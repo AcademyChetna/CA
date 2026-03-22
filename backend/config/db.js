@@ -6,8 +6,10 @@ dotenv.config();
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
-    rejectUnauthorized: false, // For Supabase, true works as well because certificate is valid
+    rejectUnauthorized: false,
   },
+  family: 4,              // <-- Force IPv4
+  connectionTimeoutMillis: 10000,
 });
 
 export default pool;
